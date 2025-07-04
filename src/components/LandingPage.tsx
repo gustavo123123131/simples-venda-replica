@@ -26,7 +26,7 @@ const LandingPage = () => {
             className="model-photo"
           />
           <h1 className="model-name">
-            💜 Letícia, sua companhia especial de <span className="cidade-highlight">{cidade}</span>
+            💜 Letícia, sua companhia especial de <span className="cidade-highlight">Peruíbe</span>
           </h1>
         </div>
 
