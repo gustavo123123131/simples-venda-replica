@@ -2,22 +2,21 @@
 import React, { useEffect, useState } from 'react';
 
 const LandingPage = () => {
-  const [cidade, setCidade] = useState('sua cidade');
-
-  useEffect(() => {
-    fetch('https://ipapi.co/json/')
-      .then(response => response.json())
-      .then(data => {
-        setCidade(data.city || 'sua cidade');
-      })
-      .catch(() => {
-        setCidade('sua cidade');
-      });
-  }, []);
-
   return (
     <div className="landing-container">
       <div className="landing-content">
+        {/* Botão WhatsApp no topo */}
+        <div className="top-whatsapp">
+          <a 
+            href="https://wa.me/55999999999" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="whatsapp-button-top"
+          >
+            💬 Conversar no WhatsApp
+          </a>
+        </div>
+
         {/* Header com nome e foto de perfil */}
         <div className="header-section">
           <div className="header-content">
@@ -28,11 +27,11 @@ const LandingPage = () => {
             />
             <div className="header-text">
               <h1 className="model-name">
-                💜 Letícia, sua companhia especial de <span className="cidade-highlight">Peruíbe</span>
+                💜 Letícia, sua companhia especial
               </h1>
               <div className="header-description">
                 <p className="intro-text">
-                  Olá querido, sou a Letícia, uma acompanhante especial aqui de <span className="cidade-highlight">Peruíbe</span>... Estou procurando por alguém especial para momentos únicos. 😈
+                  Olá querido, sou a Letícia, uma acompanhante especial... Estou procurando por alguém especial para momentos únicos. 😈
                 </p>
                 <p className="teaser-text">
                   Procura por uma companhia diferenciada e discreta? Então você encontrou a pessoa certa...

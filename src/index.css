@@ -132,6 +132,36 @@ All colors MUST be HSL.
   color: #ffffff;
 }
 
+.top-whatsapp {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.whatsapp-button-top {
+  display: inline-block;
+  background: linear-gradient(45deg, #25D366, #128C7E);
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(37, 211, 102, 0.4);
+  border: 2px solid #25D366;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button-top:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #2EE371, #25D366);
+  box-shadow: 0 8px 16px rgba(37, 211, 102, 0.6);
+  text-decoration: none;
+  color: white;
+  border-color: #2EE371;
+}
+
 .header-section {
   margin-bottom: 2rem;
 }
@@ -156,6 +186,7 @@ All colors MUST be HSL.
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   border: 4px solid #9b59b6;
   box-shadow: 0 10px 20px rgba(155, 89, 182, 0.5);
 }
@@ -205,12 +236,6 @@ All colors MUST be HSL.
   line-height: 1.6;
   margin-bottom: 1rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.cidade-highlight {
-  color: #e74c3c;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .teaser-text {
@@ -336,6 +361,11 @@ All colors MUST be HSL.
     font-size: 1rem;
     padding: 0.8rem 1.5rem;
   }
+  
+  .whatsapp-button-top {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.3rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -368,5 +398,10 @@ All colors MUST be HSL.
   .whatsapp-button {
     font-size: 0.9rem;
     padding: 0.7rem 1.2rem;
+  }
+  
+  .whatsapp-button-top {
+    font-size: 0.85rem;
+    padding: 0.6rem 1.1rem;
   }
 }
