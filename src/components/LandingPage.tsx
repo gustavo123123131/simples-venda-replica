@@ -21,7 +21,7 @@ const LandingPage = () => {
         {/* Header com nome e foto de perfil */}
         <div className="header-section">
           <img 
-            src="/lovable-uploads/43bf2bf1-28ed-4816-8b19-d98ead205c77.png" 
+            src="/lovable-uploads/3fa31933-0780-43cc-889b-621e539b0990.png" 
             alt="Letícia" 
             className="model-photo"
           />
