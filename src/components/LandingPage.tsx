@@ -20,20 +20,35 @@ const LandingPage = () => {
       <div className="landing-content">
         {/* Header com nome e foto de perfil */}
         <div className="header-section">
-          <img 
-            src="/lovable-uploads/3fa31933-0780-43cc-889b-621e539b0990.png" 
-            alt="Letícia" 
-            className="model-photo"
-          />
-          <h1 className="model-name">
-            💜 Letícia, sua companhia especial de <span className="cidade-highlight">Peruíbe</span>
-          </h1>
+          <div className="header-content">
+            <img 
+              src="/lovable-uploads/43bf2bf1-28ed-4816-8b19-d98ead205c77.png" 
+              alt="Letícia" 
+              className="model-photo"
+            />
+            <div className="header-text">
+              <h1 className="model-name">
+                💜 Letícia, sua companhia especial de <span className="cidade-highlight">Peruíbe</span>
+              </h1>
+              <div className="header-description">
+                <p className="intro-text">
+                  Olá querido, sou a Letícia, uma acompanhante especial aqui de <span className="cidade-highlight">Peruíbe</span>... Estou procurando por alguém especial para momentos únicos. 😈
+                </p>
+                <p className="teaser-text">
+                  Procura por uma companhia diferenciada e discreta? Então você encontrou a pessoa certa...
+                </p>
+                <p className="call-text">
+                  Entre em contato comigo pelo WhatsApp para conversarmos melhor e combinarmos nosso encontro…
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Galeria de fotos */}
         <div className="photo-gallery">
           <img 
-            src="/lovable-uploads/58233c5b-b479-4811-953c-ca060759aeef.png" 
+            src="/lovable-uploads/3fa31933-0780-43cc-889b-621e539b0990.png" 
             alt="Letícia" 
             className="gallery-photo"
           />
@@ -51,18 +66,6 @@ const LandingPage = () => {
 
         {/* Texto principal */}
         <div className="main-text">
-          <p className="intro-text">
-            Olá querido, sou a Letícia, uma acompanhante especial aqui de <span className="cidade-highlight">Peruíbe</span>... Estou procurando por alguém especial para momentos únicos. 😈
-          </p>
-          
-          <p className="teaser-text">
-            Procura por uma companhia diferenciada e discreta? Então você encontrou a pessoa certa...
-          </p>
-          
-          <p className="call-text">
-            Entre em contato comigo pelo WhatsApp para conversarmos melhor e combinarmos nosso encontro…
-          </p>
-          
           <p className="final-text">
             Quero ser tua vadia hoje ainda
           </p>
